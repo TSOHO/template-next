@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    transition: color .4s;
+  }
+
+  a:hover {
+    color: #888;
+    transition: color .4s;
+  }
+
+  button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0
+}
+
+button {
+  overflow: visible
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+button[disabled] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+input[type="tel"],
+input[type="password"],
+input[type="text"] {
+  -webkit-appearance: none;
+}
+
+.input {
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.input:::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.not-allowed {
+  cursor: not-allowed !important;
+}
+
+html {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: none;
+  -webkit-backface-visibility: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  background-color: #fff;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.container-fluid,
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.container-abs {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " "
+}
+
+.clearfix:after {
+  clear: both
+}
+
+
+
+.global-content{
+    padding: 20px;
+}
+.global-footer{
+    padding: 20px;
+}
+
+.global-nav ul li{
+    display:inline-block;
+    padding:0 20px;
+}
+.global-nav ul li a{
+    color: #888;
+    padding:20px 4px;
+    display:block;
+    padding-bottom: 18px;
+}
+.global-nav ul li a.active{
+    color: #000;
+    border-bottom:2px solid green;
+}
